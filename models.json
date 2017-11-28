@@ -1,0 +1,37 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "cancel"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "help"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "stop",
+          "exit"
+        ]
+      },
+      {
+        "name": "ElonQuoteIntent",
+        "samples": [
+          "give me an elon quote",
+          "what is an elon quote",
+          "give me an elon musk quote",
+          "what is an elon musk quote",
+          "inspire me"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "elon quotes"
+  }
+}
